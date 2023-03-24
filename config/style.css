@@ -1,0 +1,153 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('../img/bl_wh.png') no-repeat fixed center;
+    background-size: cover;
+}
+
+.text {
+    font-size: 1.5em;
+    color: #cccccc;
+    text-align: left;
+    margin-top: -470px;
+    margin-left: 45%;
+    margin-right: 3%;
+}
+
+#robot {
+    display: block;
+    width: 35%;
+    height: auto;
+    border-radius: 7%;
+    border: 5px dashed #669933;
+    margin-top: 128px;
+    margin-left: 78px;
+}
+
+#robot:hover {
+    border: 5px dashed #669933;
+    box-shadow: 0 0 10px #669933;
+}
+
+#btn {
+    background-color: #cccccc;
+    color: black;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 250px;
+    height: 80px;
+    margin: 8px 0;
+    margin-top: 55px;
+    margin-left: -62px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#buttondiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lofi {
+    margin-right: 10px;
+    bottom: 20px;
+    color: black;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 92px;
+}
+
+#hide {
+    z-index: 1;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 35px;
+}
+
+#musique {
+    color: #cccccc;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0;
+}
+
+#musique-bords {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 3px dashed #669933;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 1920px){
+    .text {
+        font-size: 1.5em;
+        color: #cccccc;
+        text-align: left;
+        margin-top: -580px;
+        margin-left: 45%;
+        margin-right: 3%;
+    }
+
+    #robot {
+        width: 35%;
+        height: auto;
+        border-radius: 7%;
+        border: 5px dashed #669933;
+        margin-top: 200px;
+        margin-left: 78px;
+    }
+
+    #btn{
+        width: 200px;
+        height: 80px;
+        margin-top: 130px;
+        margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #robot {
+        width: 90%;
+        height: 90%;
+        border-radius: 7%;
+        border: 5px dashed #669933;
+        margin-top: 100px;
+        margin-left: 4%;
+        margin-right: auto;
+    }
+
+    .text {
+        font-size: 0.8em;
+        text-align: left;
+        margin-top: 40px;
+        margin-left: 3%;
+        margin-right: auto;
+    }
+
+    #btn{
+        width: 200px;
+        height: 80px;
+        margin-top: 70px;
+        margin-left: -160px;
+    }
+}
