@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Focus</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="../../script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+  <link rel="icon" href="../../img/favicon.ico" type="image/x-icon">
+</head>
+<body onload="color()">
+<img src="../../img/robot_bl_wh.png" alt="robot" class="robot" id="robot">
+<img src="../../img/hide_bl.png" alt="hide" class="hide" id="hide">
+<img src="../../img/transparent.png" alt="musique-bords" class="musique-bords" id="musique-bords">
+<p id="p1">Quelle est votre couleur préférée ?</p>
+<p id="musique">Musique</p>
+<button onclick=window.location.href="../../focus/focus.html"; id="btn">Terminé !</button>
+<iframe id="lofi" allow="autoplay" width="100%" height="160" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1575805420&color=%23cccccc&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true&buying=false&sharing=false&download=false&start_track=ran;" frameborder="0" ></iframe>
+<script>
+  var lofiFrame = document.getElementById("lofi");
+  var randomValue = Math.floor(Math.random() * 199);
+  var src = lofiFrame.getAttribute("src");
+  src = src.replace("ran", randomValue);
+  lofiFrame.setAttribute("src", src);
+</script>
+
+</body>
+</html>

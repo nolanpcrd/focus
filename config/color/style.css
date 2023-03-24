@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../../img/bl_wh.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#robot {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    border-radius: 7%;
+    border: 5px dashed #669933;
+    margin: 0 auto;
+    display: block;
+    margin-top: 8.2%;
+    margin-left: 5%;
+}
+
+#robot:hover {
+    border: 5px dashed #669933;
+    box-shadow: 0 0 10px #669933;
+}
+
+#p1 {
+    position: absolute;
+    font-size: 1.5em;
+    color: #cccccc;
+    text-align: left;
+    margin-top: 11.5%;
+    margin-left: 45%;
+}
+
+#btn {
+    position: absolute;
+    top: 35%;
+    left: 68%;
+    transform: translate(-47%, 300%);
+    background-color: #cccccc;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px 0;
+    width: 250px;
+    height: 80px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px 0;
+}
+
+#lofi {
+    position: absolute;
+    top: 33%;
+    left: 93%;
+    transform: translate(-47%, 300%);
+    color: black;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 100px;
+}
+
+#hide {
+    position: absolute;
+    z-index: 1;
+    top: 93.55%;
+    left: 90%;
+    width: 100px;
+    height: 32px;
+}
+
+#musique {
+    position: absolute;
+    color: #cccccc;
+    top: 78%;
+    left: 90.8%;
+    width: 120px;
+    height: 30px;
+}
+
+#musique-bords {
+    position: absolute;
+    border: 3px dashed #669933;
+    border-radius: 20px;
+    top: 78%;
+    left: 88.59%;
+    width: 130px;
+    height: 155px;
+}
