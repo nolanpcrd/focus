@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("img/logo_bl_wh.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47%, 300%);
+    background-color: #cccccc;
+    color: black;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    padding: 14px 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px 0;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px 0;
+}
